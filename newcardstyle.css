@@ -1,0 +1,141 @@
+*{
+  font-family: montserrat;
+}
+.container{
+  width: 100%;
+}
+
+
+  .my-row{
+    padding-left: 15px;
+  }
+
+  .cartarow{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+  }
+
+  .user-card{
+    background: #dE685E;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  }
+
+  .bio{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .bio p{
+      padding-top: 15px;
+      max-height: 400px;
+  }
+
+
+
+  .bio .boton{
+    background: #fdbf50;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1 px solid #ff5757;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: .6s;
+    bottom: 10px
+    margin-left: 30px;
+    font-weight:600;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .col{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .antecedentes{
+    background: #dE685E;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  .antecedentes .grad-hat{
+    height: 60px;
+    padding: 10px;
+  }
+
+  .antecedentes .laborales{
+    background-color: #dE685E;
+    height: 400px;
+    width: 100%;
+    position:relative;
+    z-index: 0;
+  }
+  .antecedentes .laborales .cargo{
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+  .antecedentes .laborales .fecha{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+  .antecedentes .academicos{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    box-shadow:
+    z-index: 10;
+    top:0;
+    left:0;
+    transition: width 0.4s;
+    overflow: hidden;
+    border-radius: 0px 19px 19px 0px;
+  }
+
+  .antecedentes:hover .academicos{
+    width: 0px;
+
+  }
+
+  .antecedentes .academicos p{
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 270px;
+  }
+
+  .antecedentes .academicos .grado{
+      font-weight: bolder;
+      margin: 0;
+      margin-bottom: 5px;
+      width: 300px;
+    }
+
+    .antecedentes .academicos .institucion{
+      font-size: 12px;
+    }
+
+    .antecedentes .academicos .postgrado {
+      font-size: 14px;
+        font-weight: bolder;
+        margin: 0;
+        margin-bottom: 5px;
+        width: 250px;
+  }
+
+  .antecedentes .academicos  .textolargo{
+          font-size: 14px;
+            width: 250px;
+  }

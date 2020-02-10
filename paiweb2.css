@@ -1,0 +1,265 @@
+*{
+  font-family: montserrat, sans-serif;
+}
+body{
+  margin: 0px;
+  background: #ffeecf;
+}
+
+header{
+  background: #ffeecf;
+  padding-top: 15px;
+  height: 12vh;
+
+}
+
+.navegation{
+  list-style-type: none;
+}
+
+.profesionalesboton{
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #1f2735;
+  color: #ffeecf;
+}
+
+
+.logo{
+  width: 200px;
+  margin: auto;
+}
+
+.fondocentral{
+  background-image: url(../man.png);
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  height: 76vh;
+  overflow-y: scroll;
+}
+
+.fondocentral{
+  background-color: #ffeecf;
+}
+
+
+
+
+.filtrocontainer{
+  background-color: #1f2735;
+  margin: 0 auto;
+  height: 12vh;
+}
+
+.filtrocontainer button{
+  color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top:20px;
+  height: 12vh;
+}
+
+.filtrocontainer button:hover{
+  color: #1f2735;
+  background-color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 20px;
+  height: 12vh;
+  text-align: center;
+}
+
+.filtrocontainer .btn.active{
+  color: #1f2735;
+  background-color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 20px;
+  height: 12vh;
+  text-align: center;
+}
+
+.footer{
+  height: 12vh;
+  background-color: #1f2735;
+
+}
+
+/* QUE HACEMOS*/
+
+.fondocentral2{
+  background-color: #ffeecf;
+  background-image: url(../man.png);
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  height: 74vh;
+  overflow-y: scroll;
+}
+
+.fondocentral3{
+  background-color: #ffeecf;
+  background-image: url(../man.png);
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  height: 74vh;
+  overflow-y:auto;
+}
+.cuadrorow{
+  margin-top: 8vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height:60vh;
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.logo-grande img{
+  width: 400px;
+  margin: auto;
+
+}
+
+.pregunta{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.que_hacemos{
+  font-size: 16px;
+  margin-bottom: 10px;
+
+}
+
+.logo_nexstep_blanco img{
+  height: 7vh;
+  margin-top: 3vh;
+  margin-left: 42vw;
+}
+
+.etapas{
+  text-align: center;
+}
+.flujopai{
+  margin-top: 5vh;
+  height: 10vh;
+}
+
+.contfooter{
+  height: 14vh;
+  width: 100vw;
+  background-color: #1f2735;
+
+}
+
+.filtrocointainer{
+  overflow: hidden;
+}
+/*Esta parte es el pie con legal negocios y todo eso
+.pie{
+  background-color: #1f2735;
+  margin: 0 auto;
+  height: 85px;
+}
+.pie ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: top;
+  text-align: center;
+  height: 100%;
+}
+.navigation li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: top;
+  text-align: center;
+  height: 80px;
+  display: inline-block;
+  float: none;
+
+}
+.navigation li a{
+  color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top:20px;
+  height: 65px;
+}
+.navigation li a:hover{
+  color: #1f2735;
+  background-color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 20px;
+  height: 65px;
+  text-align: center;
+}
+
+
+('all')">Todos</button>
+('1')">Economia & <br>Negocios </button>
+<'2')">Legal & <br>Política </button>
+('3')">Ingeniería</button>
+<'4')">Educación</button>
+<'5')">Periodismo &<br>Comunicación </button>
+('6')">Arquitectura</button>
+<'7')">Psicología
+
+
+.navigation li a.active{
+  color: #1f2735;
+  background-color: #ffeecf;
+  font-weight:bold;
+  font: 20px;
+  text-decoration: none;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 20px;
+  height: 65px;
+  text-align: center;
+}
+
+ */
