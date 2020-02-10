@@ -32,7 +32,7 @@ header{
 }
 
 .fondocentral{
-  background-image: url(../man.png);
+  background-image: url(man.png);
   background-size: contain;
   background-position: center;
   background-blend-mode: multiply;
